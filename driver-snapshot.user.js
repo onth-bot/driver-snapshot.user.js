@@ -858,21 +858,24 @@
     btn.id = "pull-data-btn";
     btn.textContent = "Generate Split Snapshot";
     Object.assign(btn.style, {
-      position: "fixed",
-      top: "16px",
-      left: "50%",
-      transform: "translateX(-50%)",
-      zIndex: "999999",
-      padding: "12px 18px",
-      background: THEME.onTrack,
-      color: THEME.page,
-      border: `1px solid ${THEME.onTrackBorder}`,
-      borderRadius: "14px",
-      cursor: "pointer",
-      fontWeight: "1000",
-      fontSize: "13px",
-      boxShadow: "0 14px 30px rgba(57,217,138,0.18)"
-    });
+  position: "fixed",
+  right: "18px",
+  bottom: "18px",
+  top: "auto",
+  left: "auto",
+  transform: "none",
+  zIndex: "999999",
+
+  padding: "9px 12px",
+  background: THEME.onTrack,
+  color: THEME.page,
+  border: `1px solid ${THEME.onTrackBorder}`,
+  borderRadius: "12px",
+  cursor: "pointer",
+  fontWeight: "1000",
+  fontSize: "12px",
+  boxShadow: "0 10px 22px rgba(57,217,138,0.18)"
+});
 
     btn.onmouseenter = () => (btn.style.filter = "brightness(0.95)");
     btn.onmouseleave = () => (btn.style.filter = "none");
