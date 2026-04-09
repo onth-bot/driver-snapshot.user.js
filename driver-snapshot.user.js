@@ -6,9 +6,9 @@
 // @match        https://logistics.amazon.com/operations/execution/itineraries*
 // @run-at       document-idle
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/<OWNER>/<REPO>/<BRANCH>/userscripts/driver-snapshot.user.js
-// @updateURL    https://raw.githubusercontent.com/<OWNER>/<REPO>/<BRANCH>/userscripts/driver-snapshot.user.js
-// @homepageURL  https://github.com/<OWNER>/<REPO>
+// @downloadURL  https://raw.githubusercontent.com/onth-bot/driver-snapshot.user.js/main/driver-snapshot.user.js
+// @updateURL    https://raw.githubusercontent.com/onth-bot/driver-snapshot.user.js/main/driver-snapshot.user.js
+// @homepageURL  https://github.com/onth-bot/driver-snapshot.user.js
 // ==/UserScript==
 (function () {
   "use strict";
