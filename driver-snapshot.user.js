@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Driver Snapshot - Split Behind vs On Track (Red/Green) + Copy Photos
+// @name         Driver Mid Day Report
 // @namespace    https://github.com/onth/scripts
 // @version      5.5.1
 // @description  Create two shareable snapshot images: BEHIND/NEEDS ATTENTION (<threshold) and ON TRACK (>=threshold), with Download + Copy Photo
